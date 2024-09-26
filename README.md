@@ -1,6 +1,6 @@
 # bibliotech
 Repositório do Projeto bibliotech
-# 📚 Bibliotech.
+# 📚 Bibliotech
 
 Bibliotech é um sistema de gerenciamento de biblioteca desenvolvido em PHP. Ele permite a criação e gestão de usuários, além de oferecer funcionalidades para empréstimo de livros. O sistema é dividido em dois tipos de usuários: administrador e usuário padrão.
 
