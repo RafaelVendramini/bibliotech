@@ -1,4 +1,4 @@
-# bibliotech
+# Bibliotech
 
 # Repositório do Projeto bibliotech
 
