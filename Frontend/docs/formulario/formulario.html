@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Cadastro de Livro</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Livro</h1>
+        <nav>
+            <div class="logo"><img src="../imagens/logo.png"></div>
+            <ul>
+                <li><a href="../index/index.html" class="no-underline">Home</a></li>
+                <li><a href="../formulario/formulario.html" class="no-underline">Cadastrar Livro</a></li>
+                <li><a href="../biblioteca/biblioteca.html" class="no-underline">Biblioteca</a></li>
+                <li><a href="../usuarios/usuarios.html" class="no-underline">Usuários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="cadastroLivro" action="#" method="POST">
+            <label for="titulo">Titulo do livro:</label>
+            <input type="text" id="titulo" name="titulo" required>
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" name="autor" required>
+            <label for="ano">Ano:</label>
+            <input type="number" id="ano" name="ano" required min="1000" max="2100">
+            <label for="genero">Gênero:</label>
+            <input type="text" id="genero" name="genero" required>
+            <label for="editora">Editora:</label>
+            <input type="text" id="editora" name="editora" required>
+            <button type="submit">Cadastrar Livro</button>
+        </form>
+    </main>
+
+
+    <script src="formulario.js"></script>
+</body>
+</html>
